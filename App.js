@@ -48,7 +48,7 @@ export default function App() {
     }
 
      //validando diagonal 2
-     if(tabuleiro[0][2] !== '' && tabuleiro[0][2] === tabuleiro[1][1] && tabuleiro[1][1] === tabuleiro[2][0]){
+    if(tabuleiro[0][2] !== '' && tabuleiro[0][2] === tabuleiro[1][1] && tabuleiro[1][1] === tabuleiro[2][0]){
       return finalizarJogo(tabuleiro[0][2]);
     }
 
